@@ -1,0 +1,12 @@
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\bin\Debug\net5.0\Rapor.Core.deps.json
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\bin\Debug\net5.0\Rapor.Core.dll
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\bin\Debug\net5.0\ref\Rapor.Core.dll
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\bin\Debug\net5.0\Rapor.Core.pdb
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.csproj.AssemblyReference.cache
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.AssemblyInfoInputs.cache
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.AssemblyInfo.cs
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.csproj.CoreCompileInputs.cache
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.dll
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\ref\Rapor.Core.dll
+C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.pdb

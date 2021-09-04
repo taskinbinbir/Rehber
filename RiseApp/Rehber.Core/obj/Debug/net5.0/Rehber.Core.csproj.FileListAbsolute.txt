@@ -1,0 +1,12 @@
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\bin\Debug\net5.0\Rehber.Core.deps.json
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\bin\Debug\net5.0\Rehber.Core.dll
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\bin\Debug\net5.0\ref\Rehber.Core.dll
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\bin\Debug\net5.0\Rehber.Core.pdb
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.AssemblyInfoInputs.cache
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.AssemblyInfo.cs
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.csproj.CoreCompileInputs.cache
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.dll
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\obj\Debug\net5.0\ref\Rehber.Core.dll
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.pdb
+C:\Users\taski\source\repos\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.csproj.AssemblyReference.cache
