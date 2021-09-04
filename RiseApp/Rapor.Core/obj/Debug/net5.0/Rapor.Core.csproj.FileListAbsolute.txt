@@ -10,3 +10,15 @@ C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.cspro
 C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.dll
 C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\ref\Rapor.Core.dll
 C:\Users\taski\source\repos\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.pdb
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\bin\Debug\net5.0\Rapor.Core.deps.json
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\bin\Debug\net5.0\Rapor.Core.dll
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\bin\Debug\net5.0\ref\Rapor.Core.dll
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\bin\Debug\net5.0\Rapor.Core.pdb
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.csproj.AssemblyReference.cache
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.AssemblyInfoInputs.cache
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.AssemblyInfo.cs
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.csproj.CoreCompileInputs.cache
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.dll
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\obj\Debug\net5.0\ref\Rapor.Core.dll
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.Core\obj\Debug\net5.0\Rapor.Core.pdb
