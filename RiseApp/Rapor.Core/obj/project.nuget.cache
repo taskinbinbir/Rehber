@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H8C2RQ6vNXer6dtxxtdeMebXlv9EQAQIBGLN/hsVEl2W1Kk+egjBhox0c1U419J557wNA4ev+USYiIaXekg2aQ==",
+  "dgSpecHash": "H46SKFakttCUIVIGbM3FZZRXamHJ+HUd2bJkrJHT1Sp3h7JhSI1WnITW76SqDUf4kXp4aLQOFnXZ/83M9e+B9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.Core\\Rapor.Core.csproj",
+  "projectFilePath": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Rapor.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taski\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\taski\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

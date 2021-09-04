@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wOJdMusmpOYG5ordh5AoLveU5dW0SiHOEI3CUGvsQwb8iGowptrDuyQ5Nmn6UFGRVJ37i2juuThrpxPphxPZjw==",
+  "dgSpecHash": "z1j//FMly39xUXpVnDcTsqYYYIxVkA4oKN/LIs9LE8bjDtW6fdYSABDjsdO6kdIViBv3jtALM1408jOXvUJilg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rehber.Core\\Rehber.Core.csproj",
+  "projectFilePath": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.Core\\Rehber.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taski\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\taski\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

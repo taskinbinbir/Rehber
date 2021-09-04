@@ -35,7 +35,5 @@ namespace Rapor.WebApi.Controllers
         {
             return Ok(await _raporServices.CreateIstatistikselRapor());
         }
-
-
     }
 }

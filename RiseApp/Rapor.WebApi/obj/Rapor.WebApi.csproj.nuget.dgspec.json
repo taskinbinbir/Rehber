@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.WebApi\\Rapor.WebApi.csproj": {}
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.WebApi\\Rapor.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.Core\\Rapor.Core.csproj": {
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Rapor.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.Core\\Rapor.Core.csproj",
+        "projectUniqueName": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Rapor.Core.csproj",
         "projectName": "Rapor.Core",
-        "projectPath": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.Core\\Rapor.Core.csproj",
+        "projectPath": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Rapor.Core.csproj",
         "packagesPath": "C:\\Users\\taski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.Core\\obj\\",
+        "outputPath": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.WebApi\\Rapor.WebApi.csproj": {
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.WebApi\\Rapor.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.WebApi\\Rapor.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.WebApi\\Rapor.WebApi.csproj",
         "projectName": "Rapor.WebApi",
-        "projectPath": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.WebApi\\Rapor.WebApi.csproj",
+        "projectPath": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.WebApi\\Rapor.WebApi.csproj",
         "packagesPath": "C:\\Users\\taski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,8 +116,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.Core\\Rapor.Core.csproj": {
-                "projectPath": "C:\\Users\\taski\\source\\repos\\RiseApp\\Rapor.Core\\Rapor.Core.csproj"
+              "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Rapor.Core.csproj": {
+                "projectPath": "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Rapor.Core.csproj"
               }
             }
           }
