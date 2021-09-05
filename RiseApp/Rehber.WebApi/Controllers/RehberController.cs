@@ -27,17 +27,17 @@ namespace Rehber.WebApi.Controllers
             return Ok(kisi);
         }
 
-        [HttpDelete("KisiSil/{id}")]
-        public IActionResult KisiSil(Guid id)
+        [HttpDelete("KisiSil/{UUID}")]
+        public IActionResult KisiSil(Guid UUID)
         {
-            _rehberServices.DeleteKisi(id);
+            _rehberServices.DeleteKisi(UUID);
             return NoContent();
         }
 
-        [HttpGet("KisiGetir/{id}")]
-        public IActionResult KisiGetir(Guid id)
+        [HttpGet("KisiGetir/{UUID}")]
+        public IActionResult KisiGetir(Guid UUID)
         {
-            return Ok(_rehberServices.GetKisi(id));
+            return Ok(_rehberServices.GetKisi(UUID));
         }
 
         [HttpPut("IletisimBilgisiEkle")]
