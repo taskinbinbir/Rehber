@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rapor.Core", "Rapor.Core\Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rapor.UnitTest", "Rapor.UnitTest\Rapor.UnitTest.csproj", "{23D08F2E-BAC7-4501-A6EA-0F812896A58A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rehber.UnitTest", "Rehber.UnitTest\Rehber.UnitTest.csproj", "{4139463E-57DC-4C39-9F90-CAD8F2C0A461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rehber.UnitTest", "Rehber.UnitTest\Rehber.UnitTest.csproj", "{4139463E-57DC-4C39-9F90-CAD8F2C0A461}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

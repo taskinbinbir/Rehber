@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rapor.Core;
 using Rapor.WebApi.Controllers;
+using System.Threading.Tasks;
 
 namespace Rapor.UnitTest
 {
@@ -9,32 +10,37 @@ namespace Rapor.UnitTest
     {
         private readonly IRaporServices _raporServices;
 
+        public RaporUnitTest(IRaporServices raporServices)
+        {
+            _raporServices = raporServices;
+        }
+
         [TestMethod]
-        public void GetRaporlar()
+        public async Task GetRaporlarAsync()
         {
             var controller = new RaporController(_raporServices);
 
-            var response = controller.GetRaporlar();
+            var response = await controller.GetRaporlar();
 
             Assert.IsNotNull(response);
         }
 
         [TestMethod]
-        public void CreateDetayRapor()
+        public async Task CreateDetayRapor()
         {
             var controller = new RaporController(_raporServices);
 
-            var response = controller.CreateDetayRapor();
+            var response = await controller.CreateDetayRapor();
 
             Assert.IsNotNull(response);
         }
 
         [TestMethod]
-        public void CreateIstatistikselRapor()
+        public async Task CreateIstatistikselRapor()
         {
             var controller = new RaporController(_raporServices);
 
-            var response = controller.CreateIstatistikselRapor();
+            var response = await controller.CreateIstatistikselRapor();
 
             Assert.IsNotNull(response);
         }

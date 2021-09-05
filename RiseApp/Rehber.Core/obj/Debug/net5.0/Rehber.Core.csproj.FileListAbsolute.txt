@@ -14,7 +14,6 @@ C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\bin\Debug\ne
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\bin\Debug\net5.0\Rehber.Core.dll
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\bin\Debug\net5.0\ref\Rehber.Core.dll
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\bin\Debug\net5.0\Rehber.Core.pdb
-C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.csproj.AssemblyReference.cache
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.AssemblyInfoInputs.cache
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\ne
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.dll
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\ref\Rehber.Core.dll
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.pdb
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.csproj.AssemblyReference.cache

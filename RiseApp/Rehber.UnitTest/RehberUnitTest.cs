@@ -4,16 +4,22 @@ using Rehber.Core.Models;
 using Rehber.WebApi.Controllers;
 using System;
 
+
 namespace Rehber.UnitTest
 {
     [TestClass]
     public class RehberUnitTest
     {
         private readonly IRehberServices _rehberServices;
+            
+        public RehberUnitTest(IRehberServices rehberServices)
+        {
+            _rehberServices = rehberServices;
+        }
 
         [TestMethod]
         public void KisiEkle()
-        {
+        {                    
             var controller = new RehberController(_rehberServices);
 
             KisiModel request = new KisiModel()
