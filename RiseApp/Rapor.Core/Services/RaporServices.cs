@@ -1,5 +1,6 @@
 ﻿using MongoDB.Driver;
 using Newtonsoft.Json;
+using NPOI.SS.Formula.Functions;
 using Rapor.Core.Models;
 using RestSharp;
 using System;
@@ -20,6 +21,12 @@ namespace Rapor.Core
         public async Task<List<RaporIcerikModel>> CreateDetayRapor()
         {
             Guid g = Guid.NewGuid();
+            RestClient client = new RestClient("https://localhost:44389/Rehber/IletisimBilgileri");
+            RestRequest request = new RestRequest(Method.GET);
+            IRestResponse response = await client.ExecuteAsync(request);
+            List<IletisimBilgisiModel> iletisimBilgileri = JsonConvert.DeserializeObject<List<IletisimBilgisiModel>>(response.Content);
+            List<RaporIcerikModel> raporIcerikModelList = new List<RaporIcerikModel>();
+            Queue<List<RaporIcerikModel>> raporIcerikModelListQueue = new Queue<List<RaporIcerikModel>>();
 
             RaporModel rapor = new RaporModel()
             {
@@ -30,12 +37,7 @@ namespace Rapor.Core
 
             await _raporlar.InsertOneAsync(rapor);
 
-            RestClient client = new RestClient("https://localhost:44389/Rehber/IletisimBilgileri");
-            RestRequest request = new RestRequest(Method.GET);
-            IRestResponse response = await client.ExecuteAsync(request);
-            List<IletisimBilgisiModel> iletisimBilgileri = JsonConvert.DeserializeObject<List<IletisimBilgisiModel>>(response.Content);
 
-            List<RaporIcerikModel> raporIcerikModelList = new List<RaporIcerikModel>();
 
             foreach (IletisimBilgisiModel i in iletisimBilgileri)
             {
@@ -86,18 +88,21 @@ namespace Rapor.Core
                 ekle = false;
             }
 
+            raporIcerikModelListQueue.Enqueue(raporIcerikModelList);
+
             rapor.Durumu = "Tamamlandı";
             await _raporlar.ReplaceOneAsync(r => r.UUID == rapor.UUID, rapor);
 
-            return raporIcerikModelList;
+            return raporIcerikModelListQueue.Dequeue();
         }
 
         public async Task<List<IstatistikselRaporModel>> CreateIstatistikselRapor()
         {
             List<RaporIcerikModel> raporIcerik = await CreateDetayRapor();
             List<IstatistikselRaporModel> istatistikselRaporModelList = new List<IstatistikselRaporModel>();
-
             double toplamKisiSayisi = 0;
+            Queue<List<IstatistikselRaporModel>> istatistikselRaporModelQueue = new Queue<List<IstatistikselRaporModel>>();
+
 
             foreach (RaporIcerikModel r in raporIcerik)
             {
@@ -113,14 +118,19 @@ namespace Rapor.Core
                 });
             }
 
-            return istatistikselRaporModelList;
+            istatistikselRaporModelQueue.Enqueue(istatistikselRaporModelList);
+
+            return istatistikselRaporModelQueue.Dequeue();
         }
 
         public async Task<List<RaporModel>> GetRapors()
         {
-            var a = await _raporlar.FindAsync(rapor => true);
+            Queue<IAsyncCursor<RaporModel>> queue = new Queue<IAsyncCursor<RaporModel>>();
 
-            return a.ToList();
+            var a = await _raporlar.FindAsync(rapor => true);
+            queue.Enqueue(a);
+
+            return queue.Dequeue().ToList();
         }
 
     }
