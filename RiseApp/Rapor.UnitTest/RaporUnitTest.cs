@@ -1,12 +1,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rapor.Core;
 using Rapor.WebApi.Controllers;
-using System.Collections.Generic;
 
 namespace Rapor.UnitTest
 {
     [TestClass]
-    public class UnitTest
+    public class RaporUnitTest
     {
         private readonly IRaporServices _raporServices;
 

@@ -18,7 +18,7 @@ namespace Rehber.WebApi.Controllers
         public RehberController(IRehberServices rehberServices)
         {
             _rehberServices = rehberServices;
-        }       
+        }           
 
         [HttpPost("KisiEkle")]
         public IActionResult KisiEkle(KisiModel kisi)
@@ -52,7 +52,6 @@ namespace Rehber.WebApi.Controllers
             _rehberServices.DeleteIletisimBilgisi(UUID);
             return NoContent();
         }
-
 
         [HttpGet("KisiListesi")]
         public IActionResult KisiListesi()
