@@ -1,6 +1,9 @@
+using Microsoft.Extensions.Options;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using Rapor.Core;
 using Rapor.WebApi.Controllers;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Rapor.UnitTest
@@ -8,18 +11,12 @@ namespace Rapor.UnitTest
     [TestClass]
     public class RaporUnitTest
     {
-        private readonly IRaporServices _raporServices;
-
-        public RaporUnitTest(IRaporServices raporServices)
-        {
-            _raporServices = raporServices;
-        }
-
+        private readonly Mock<IRaporServices> _raporServicesMock = new Mock<IRaporServices>();
+                
         [TestMethod]
-        public async Task GetRaporlarAsync()
+        public async Task GetRaporlar()
         {
-            var controller = new RaporController(_raporServices);
-
+            var controller = new RaporController(_raporServicesMock.Object);
             var response = await controller.GetRaporlar();
 
             Assert.IsNotNull(response);
@@ -28,7 +25,7 @@ namespace Rapor.UnitTest
         [TestMethod]
         public async Task CreateDetayRapor()
         {
-            var controller = new RaporController(_raporServices);
+            var controller = new RaporController(_raporServicesMock.Object);
 
             var response = await controller.CreateDetayRapor();
 
@@ -38,7 +35,7 @@ namespace Rapor.UnitTest
         [TestMethod]
         public async Task CreateIstatistikselRapor()
         {
-            var controller = new RaporController(_raporServices);
+            var controller = new RaporController(_raporServicesMock.Object);
 
             var response = await controller.CreateIstatistikselRapor();
 

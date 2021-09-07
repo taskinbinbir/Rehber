@@ -13,11 +13,12 @@ namespace Rapor.WebApi.Controllers
     public class RaporController : ControllerBase
     {
         private readonly IRaporServices _raporServices;
+       
         public RaporController(IRaporServices raporServices)
         {
             _raporServices = raporServices;
         }
-                
+
         [HttpGet("GetRaporlar")]
         public async Task<IActionResult> GetRaporlar()
         {

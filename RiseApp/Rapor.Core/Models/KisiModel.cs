@@ -17,5 +17,10 @@ namespace Rapor.Core.Models
         public string Soyad { get; set; }
         public string Firma { get; set; }
         public IletisimBilgisiModel IletisimBilgisi { get; set; }
+
+        public KisiModel()
+        {
+            IletisimBilgisi = new IletisimBilgisiModel();
+        }
     }
 }

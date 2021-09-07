@@ -124,3 +124,5 @@ C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.UnitTest\bin\Debu
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.UnitTest\bin\Debug\net5.0\Rehber.Core.pdb
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.UnitTest\bin\Debug\net5.0\Rehber.WebApi.pdb
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.UnitTest\obj\Debug\net5.0\Rehber.UnitTest.csproj.AssemblyReference.cache
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.UnitTest\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.UnitTest\bin\Debug\net5.0\Moq.dll

@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using Rehber.Core;
 using Rehber.Core.Models;
 using Rehber.WebApi.Controllers;
@@ -10,17 +11,20 @@ namespace Rehber.UnitTest
     [TestClass]
     public class RehberUnitTest
     {
-        private readonly IRehberServices _rehberServices;
-            
-        public RehberUnitTest(IRehberServices rehberServices)
-        {
-            _rehberServices = rehberServices;
-        }
+        //private readonly IRehberServices _rehberServices;
+
+        private readonly Mock<IRehberServices> _rehberServicesMock = new Mock<IRehberServices>();
+
+
+        //public RehberUnitTest(IRehberServices rehberServices)
+        //{
+        //    _rehberServices = rehberServices;
+        //}
 
         [TestMethod]
         public void KisiEkle()
         {                    
-            var controller = new RehberController(_rehberServices);
+            var controller = new RehberController(_rehberServicesMock.Object);
 
             KisiModel request = new KisiModel()
             {
@@ -36,7 +40,7 @@ namespace Rehber.UnitTest
         [TestMethod]
         public void KisiSil()
         {
-            var controller = new RehberController(_rehberServices);
+            var controller = new RehberController(_rehberServicesMock.Object);
             Guid guid = new Guid();
             var response = controller.KisiSil(guid);
             Assert.IsNotNull(response);
@@ -45,7 +49,7 @@ namespace Rehber.UnitTest
         [TestMethod]
         public void KisiGetir()
         {
-            var controller = new RehberController(_rehberServices);
+            var controller = new RehberController(_rehberServicesMock.Object);
             Guid guid = new Guid();
             var response = controller.KisiGetir(guid);
             Assert.IsNotNull(response);
@@ -54,8 +58,8 @@ namespace Rehber.UnitTest
         [TestMethod]
         public void AddIletisimBilgisi()
         {
-            var controller = new RehberController(_rehberServices);
-            Guid guid = new Guid();
+            var controller = new RehberController(_rehberServicesMock.Object);
+            Guid guid = new Guid();           
             KisiModel request = new KisiModel()
             {
                 UUID = guid,
@@ -74,7 +78,7 @@ namespace Rehber.UnitTest
         [TestMethod]
         public void DeleteIletisimBilgisi()
         {
-            var controller = new RehberController(_rehberServices);
+            var controller = new RehberController(_rehberServicesMock.Object);
             Guid guid = new Guid();
             var response = controller.DeleteIletisimBilgisi(guid);
             Assert.IsNotNull(response);
@@ -83,7 +87,7 @@ namespace Rehber.UnitTest
         [TestMethod]
         public void KisiListesi()
         {
-            var controller = new RehberController(_rehberServices);
+            var controller = new RehberController(_rehberServicesMock.Object);
 
             var response = controller.KisiListesi();
 
@@ -93,7 +97,7 @@ namespace Rehber.UnitTest
         [TestMethod]
         public void GetIletisimBilgileri()
         {
-            var controller = new RehberController(_rehberServices);
+            var controller = new RehberController(_rehberServicesMock.Object);
 
             var response = controller.GetIletisimBilgileri();
 
