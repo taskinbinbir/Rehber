@@ -1,0 +1,506 @@
+{
+  "Rehber.Core.dll": {
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.Core\\Helper\\RehberDbConfig.cs": {
+      "Rehber.Core.RehberDbConfig": {
+        "System.String Rehber.Core.RehberDbConfig::get_Database_Name()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Rehber.Core.RehberDbConfig::get_Rehber_Collection_Name()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Rehber.Core.RehberDbConfig::get_Connection_String()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.Core\\Repository\\DbClient.cs": {
+      "Rehber.Core.DbClient": {
+        "MongoDB.Driver.IMongoCollection`1<Rehber.Core.Models.KisiModel> Rehber.Core.DbClient::GetKisilerCollection()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.Core.DbClient::.ctor(Microsoft.Extensions.Options.IOptions`1<Rehber.Core.RehberDbConfig>)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.Core\\Services\\RehberServices.cs": {
+      "Rehber.Core.RehberServices": {
+        "Rehber.Core.Models.KisiModel Rehber.Core.RehberServices::AddIletisimBilgisi(Rehber.Core.Models.KisiModel)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.Core.RehberServices::DeleteIletisimBilgisi(System.Guid)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "Rehber.Core.Models.KisiModel Rehber.Core.RehberServices::AddKisi(Rehber.Core.Models.KisiModel)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.Core.RehberServices::DeleteKisi(System.Guid)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        },
+        "Rehber.Core.Models.KisiModel Rehber.Core.RehberServices::GetKisi(System.Guid)": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Rehber.Core.Models.KisiModel> Rehber.Core.RehberServices::KisiListesi()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Rehber.Core.Models.IletisimBilgisiModel> Rehber.Core.RehberServices::KisilerinIletisimBilgileri()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 71,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 46,
+              "EndOffset": 63,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Rehber.Core.RehberServices::.ctor(Rehber.Core.IDbClient)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.Core\\Models\\IletisimBilgisiModel.cs": {
+      "Rehber.Core.Models.IletisimBilgisiModel": {
+        "System.String Rehber.Core.Models.IletisimBilgisiModel::get_TelefonNumarasi()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.String Rehber.Core.Models.IletisimBilgisiModel::get_EMailAdresi()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        },
+        "System.String Rehber.Core.Models.IletisimBilgisiModel::get_Konum()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.Core\\Models\\KisiModel.cs": {
+      "Rehber.Core.Models.KisiModel": {
+        "System.Guid Rehber.Core.Models.KisiModel::get_UUID()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        },
+        "System.String Rehber.Core.Models.KisiModel::get_Ad()": {
+          "Lines": {
+            "15": 1
+          },
+          "Branches": []
+        },
+        "System.String Rehber.Core.Models.KisiModel::get_Soyad()": {
+          "Lines": {
+            "16": 1
+          },
+          "Branches": []
+        },
+        "System.String Rehber.Core.Models.KisiModel::get_Firma()": {
+          "Lines": {
+            "17": 1
+          },
+          "Branches": []
+        },
+        "Rehber.Core.Models.IletisimBilgisiModel Rehber.Core.Models.KisiModel::get_IletisimBilgisi()": {
+          "Lines": {
+            "18": 5
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.Core.Models.KisiModel::.ctor()": {
+          "Lines": {
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Rehber.UnitTest.dll": {
+    "C:\\Users\\taski\\.nuget\\packages\\microsoft.net.test.sdk\\16.9.4\\build\\netcoreapp2.1\\Microsoft.NET.Test.Sdk.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.UnitTest\\RehberUnitTest.cs": {
+      "Rehber.UnitTest.RehberUnitTest": {
+        "System.Void Rehber.UnitTest.RehberUnitTest::KisiEkle()": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.UnitTest.RehberUnitTest::KisiSil()": {
+          "Lines": {
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.UnitTest.RehberUnitTest::KisiGetir()": {
+          "Lines": {
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.UnitTest.RehberUnitTest::AddIletisimBilgisi()": {
+          "Lines": {
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "66": 1,
+            "67": 1,
+            "68": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.UnitTest.RehberUnitTest::DeleteIletisimBilgisi()": {
+          "Lines": {
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.UnitTest.RehberUnitTest::KisiListesi()": {
+          "Lines": {
+            "81": 1,
+            "82": 1,
+            "84": 1,
+            "86": 1,
+            "87": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.UnitTest.RehberUnitTest::GetIletisimBilgileri()": {
+          "Lines": {
+            "91": 1,
+            "92": 1,
+            "94": 1,
+            "96": 1,
+            "97": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.UnitTest.RehberUnitTest::.ctor()": {
+          "Lines": {
+            "14": 7
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Rehber.WebApi.dll": {
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.WebApi\\Program.cs": {
+      "Rehber.WebApi.Program": {
+        "System.Void Rehber.WebApi.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Rehber.WebApi.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.WebApi\\Startup.cs": {
+      "Rehber.WebApi.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Rehber.WebApi.Startup::get_Configuration()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.WebApi.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.WebApi.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "52": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 9,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Rehber.WebApi.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rehber.WebApi\\Controllers\\RehberController.cs": {
+      "Rehber.WebApi.Controllers.RehberController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult Rehber.WebApi.Controllers.RehberController::KisiEkle(Rehber.Core.Models.KisiModel)": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Rehber.WebApi.Controllers.RehberController::KisiSil(System.Guid)": {
+          "Lines": {
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Rehber.WebApi.Controllers.RehberController::KisiGetir(System.Guid)": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Rehber.WebApi.Controllers.RehberController::AddIletisimBilgisi(Rehber.Core.Models.KisiModel)": {
+          "Lines": {
+            "45": 1,
+            "46": 1,
+            "47": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Rehber.WebApi.Controllers.RehberController::DeleteIletisimBilgisi(System.Guid)": {
+          "Lines": {
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Rehber.WebApi.Controllers.RehberController::KisiListesi()": {
+          "Lines": {
+            "58": 1,
+            "59": 1,
+            "60": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult Rehber.WebApi.Controllers.RehberController::GetIletisimBilgileri()": {
+          "Lines": {
+            "64": 1,
+            "65": 1,
+            "66": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rehber.WebApi.Controllers.RehberController::.ctor(Rehber.Core.IRehberServices)": {
+          "Lines": {
+            "18": 7,
+            "19": 7,
+            "20": 7,
+            "21": 7
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -106,3 +106,4 @@ C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.WebApi\obj\Debug\n
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.WebApi\obj\Debug\net5.0\ref\Rapor.WebApi.dll
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.WebApi\obj\Debug\net5.0\Rapor.WebApi.pdb
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.WebApi\obj\Debug\net5.0\Rapor.WebApi.genruntimeconfig.cache
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.WebApi\bin\Debug\net5.0\RabbitMQ.Client.dll

@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[106.12.0, )"

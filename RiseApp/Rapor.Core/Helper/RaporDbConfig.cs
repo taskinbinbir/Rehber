@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rapor.Core
+namespace Rapor.Core.Helper
 {
     public class RaporDbConfig
     {

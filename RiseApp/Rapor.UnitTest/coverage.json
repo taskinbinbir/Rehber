@@ -1,0 +1,623 @@
+{
+  "Rapor.Core.dll": {
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Models\\RaporModel.cs": {
+      "Rapor.Core.RaporModel": {
+        "System.Guid Rapor.Core.RaporModel::get_UUID()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Rapor.Core.RaporModel::get_TalepTarihi()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Rapor.Core.RaporModel::get_Durumu()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Repository\\DbClient.cs": {
+      "Rapor.Core.DbClient": {
+        "MongoDB.Driver.IMongoCollection`1<Rapor.Core.RaporModel> Rapor.Core.DbClient::GetRaporCollection()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rapor.Core.DbClient::.ctor(Microsoft.Extensions.Options.IOptions`1<Rapor.Core.Helper.RaporDbConfig>)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Services\\RaporServices.cs": {
+      "Rapor.Core.RaporServices": {
+        "System.Void Rapor.Core.RaporServices::.ctor(Rapor.Core.IDbClient)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      },
+      "Rapor.Core.RaporServices/<>c__DisplayClass2_1": {
+        "System.Boolean Rapor.Core.RaporServices/<>c__DisplayClass2_1::<CreateDetayRapor>b__1(Rapor.Core.Models.RaporIcerikModel)": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Rapor.Core.RaporServices/<>c__DisplayClass2_1::<CreateDetayRapor>b__2(Rapor.Core.Models.RaporIcerikModel)": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        }
+      },
+      "Rapor.Core.RaporServices/<CreateDetayRapor>d__2": {
+        "System.Void Rapor.Core.RaporServices/<CreateDetayRapor>d__2::MoveNext()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "51": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 891,
+              "EndOffset": 474,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 533,
+              "EndOffset": 535,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 533,
+              "EndOffset": 549,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 582,
+              "EndOffset": 584,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 671,
+              "EndOffset": 673,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 671,
+              "EndOffset": 699,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 582,
+              "EndOffset": 709,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 729,
+              "EndOffset": 734,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 805,
+              "EndOffset": 807,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 805,
+              "EndOffset": 824,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 729,
+              "EndOffset": 865,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 891,
+              "EndOffset": 896,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Rapor.Core.RaporServices/<CreateIstatistikselRapor>d__3": {
+        "System.Void Rapor.Core.RaporServices/<CreateIstatistikselRapor>d__3::MoveNext()": {
+          "Lines": {
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0,
+            "116": 0
+          },
+          "Branches": [
+            {
+              "Line": 101,
+              "Offset": 248,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 248,
+              "EndOffset": 250,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 415,
+              "EndOffset": 307,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 415,
+              "EndOffset": 417,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Rapor.Core.RaporServices/<GetRapors>d__4": {
+        "System.Void Rapor.Core.RaporServices/<GetRapors>d__4::MoveNext()": {
+          "Lines": {
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Models\\IletisimBilgisiModel.cs": {
+      "Rapor.Core.Models.IletisimBilgisiModel": {
+        "System.String Rapor.Core.Models.IletisimBilgisiModel::get_TelefonNumarasi()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Rapor.Core.Models.IletisimBilgisiModel::get_EMailAdresi()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Rapor.Core.Models.IletisimBilgisiModel::get_Konum()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Models\\IstatistikselRaporModel.cs": {
+      "Rapor.Core.Models.IstatistikselRaporModel": {
+        "System.String Rapor.Core.Models.IstatistikselRaporModel::get_Konum()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Double Rapor.Core.Models.IstatistikselRaporModel::get_Yuzde()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Models\\KisiModel.cs": {
+      "Rapor.Core.Models.KisiModel": {
+        "System.Guid Rapor.Core.Models.KisiModel::get_UUID()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Rapor.Core.Models.KisiModel::get_Ad()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Rapor.Core.Models.KisiModel::get_Soyad()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String Rapor.Core.Models.KisiModel::get_Firma()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Rapor.Core.Models.IletisimBilgisiModel Rapor.Core.Models.KisiModel::get_IletisimBilgisi()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rapor.Core.Models.KisiModel::.ctor()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Models\\RaporIcerikModel.cs": {
+      "Rapor.Core.Models.RaporIcerikModel": {
+        "System.String Rapor.Core.Models.RaporIcerikModel::get_Konum()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Rapor.Core.Models.RaporIcerikModel::get_RehbereKayitliKisiSayisi()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Rapor.Core.Models.RaporIcerikModel::get_RehbereKayitliTelefonNumarasıSayisi()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.Core\\Helper\\RaporDbConfig.cs": {
+      "Rapor.Core.Helper.RaporDbConfig": {
+        "System.String Rapor.Core.Helper.RaporDbConfig::get_Database_Name()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Rapor.Core.Helper.RaporDbConfig::get_Rapor_Collection_Name()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Rapor.Core.Helper.RaporDbConfig::get_Connection_String()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Rapor.UnitTest.dll": {
+    "C:\\Users\\taski\\.nuget\\packages\\microsoft.net.test.sdk\\16.9.4\\build\\netcoreapp2.1\\Microsoft.NET.Test.Sdk.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.UnitTest\\RaporUnitTest.cs": {
+      "Rapor.UnitTest.RaporUnitTest": {
+        "System.Void Rapor.UnitTest.RaporUnitTest::.ctor()": {
+          "Lines": {
+            "14": 3
+          },
+          "Branches": []
+        }
+      },
+      "Rapor.UnitTest.RaporUnitTest/<GetRaporlar>d__1": {
+        "System.Void Rapor.UnitTest.RaporUnitTest/<GetRaporlar>d__1::MoveNext()": {
+          "Lines": {
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        }
+      },
+      "Rapor.UnitTest.RaporUnitTest/<CreateDetayRapor>d__2": {
+        "System.Void Rapor.UnitTest.RaporUnitTest/<CreateDetayRapor>d__2::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "28": 1,
+            "30": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": []
+        }
+      },
+      "Rapor.UnitTest.RaporUnitTest/<CreateIstatistikselRapor>d__3": {
+        "System.Void Rapor.UnitTest.RaporUnitTest/<CreateIstatistikselRapor>d__3::MoveNext()": {
+          "Lines": {
+            "37": 1,
+            "38": 1,
+            "40": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Rapor.WebApi.dll": {
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.WebApi\\Program.cs": {
+      "Rapor.WebApi.Program": {
+        "System.Void Rapor.WebApi.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Rapor.WebApi.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.WebApi\\Startup.cs": {
+      "Rapor.WebApi.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Rapor.WebApi.Startup::get_Configuration()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rapor.WebApi.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rapor.WebApi.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "48": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 9,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Rapor.WebApi.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\taski\\OneDrive\\Documents\\GitHub\\Rehber\\RiseApp\\Rapor.WebApi\\Controllers\\RaporController.cs": {
+      "Rapor.WebApi.Controllers.RaporController": {
+        "System.Void Rapor.WebApi.Controllers.RaporController::.ctor(Rapor.Core.IRaporServices)": {
+          "Lines": {
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3
+          },
+          "Branches": []
+        }
+      },
+      "Rapor.WebApi.Controllers.RaporController/<GetRaporlar>d__2": {
+        "System.Void Rapor.WebApi.Controllers.RaporController/<GetRaporlar>d__2::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        }
+      },
+      "Rapor.WebApi.Controllers.RaporController/<CreateDetayRapor>d__3": {
+        "System.Void Rapor.WebApi.Controllers.RaporController/<CreateDetayRapor>d__3::MoveNext()": {
+          "Lines": {
+            "30": 1,
+            "31": 1,
+            "32": 1
+          },
+          "Branches": []
+        }
+      },
+      "Rapor.WebApi.Controllers.RaporController/<CreateIstatistikselRapor>d__4": {
+        "System.Void Rapor.WebApi.Controllers.RaporController/<CreateIstatistikselRapor>d__4::MoveNext()": {
+          "Lines": {
+            "36": 1,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

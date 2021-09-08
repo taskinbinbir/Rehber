@@ -13,7 +13,7 @@ namespace Rapor.WebApi.Controllers
     public class RaporController : ControllerBase
     {
         private readonly IRaporServices _raporServices;
-       
+
         public RaporController(IRaporServices raporServices)
         {
             _raporServices = raporServices;
@@ -27,7 +27,7 @@ namespace Rapor.WebApi.Controllers
 
         [HttpGet("DetayRaporTalebi")]
         public async Task<IActionResult> CreateDetayRapor()
-        {            
+        {
             return Ok(await _raporServices.CreateDetayRapor());
         }
 

@@ -5,7 +5,11 @@ using Rapor.Core.Models;
 using RestSharp;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 
 namespace Rapor.Core
 {
@@ -26,7 +30,6 @@ namespace Rapor.Core
             IRestResponse response = await client.ExecuteAsync(request);
             List<IletisimBilgisiModel> iletisimBilgileri = JsonConvert.DeserializeObject<List<IletisimBilgisiModel>>(response.Content);
             List<RaporIcerikModel> raporIcerikModelList = new List<RaporIcerikModel>();
-            Queue<List<RaporIcerikModel>> raporIcerikModelListQueue = new Queue<List<RaporIcerikModel>>();
 
             RaporModel rapor = new RaporModel()
             {
@@ -36,8 +39,7 @@ namespace Rapor.Core
             };
 
             await _raporlar.InsertOneAsync(rapor);
-
-
+            
 
             foreach (IletisimBilgisiModel i in iletisimBilgileri)
             {
@@ -88,12 +90,30 @@ namespace Rapor.Core
                 ekle = false;
             }
 
-            raporIcerikModelListQueue.Enqueue(raporIcerikModelList);
+
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.QueueDeclare(queue: "CreateDetayRapor",
+                    durable: false,
+                    exclusive: false,
+                    autoDelete: false,
+                    arguments: null);
+
+                var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(raporIcerikModelList));
+
+                channel.BasicPublish(exchange: "",
+                    routingKey: "CreateDetayRapor",
+                    basicProperties: null,
+                    body: body);
+            }
+
 
             rapor.Durumu = "Tamamlandı";
             await _raporlar.ReplaceOneAsync(r => r.UUID == rapor.UUID, rapor);
 
-            return raporIcerikModelListQueue.Dequeue();
+            return raporIcerikModelList;
         }
 
         public async Task<List<IstatistikselRaporModel>> CreateIstatistikselRapor()
@@ -101,8 +121,6 @@ namespace Rapor.Core
             List<RaporIcerikModel> raporIcerik = await CreateDetayRapor();
             List<IstatistikselRaporModel> istatistikselRaporModelList = new List<IstatistikselRaporModel>();
             double toplamKisiSayisi = 0;
-            Queue<List<IstatistikselRaporModel>> istatistikselRaporModelQueue = new Queue<List<IstatistikselRaporModel>>();
-
 
             foreach (RaporIcerikModel r in raporIcerik)
             {
@@ -118,19 +136,51 @@ namespace Rapor.Core
                 });
             }
 
-            istatistikselRaporModelQueue.Enqueue(istatistikselRaporModelList);
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.QueueDeclare(queue: "CreateIstatistikselRapor",
+                    durable: false,
+                    exclusive: false,
+                    autoDelete: false,
+                    arguments: null);
 
-            return istatistikselRaporModelQueue.Dequeue();
+                var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(istatistikselRaporModelList.ToList()));
+
+                channel.BasicPublish(exchange: "",
+                    routingKey: "CreateIstatistikselRapor",
+                    basicProperties: null,
+                    body: body);
+            }
+
+
+            return istatistikselRaporModelList;
         }
 
         public async Task<List<RaporModel>> GetRapors()
         {
-            Queue<IAsyncCursor<RaporModel>> queue = new Queue<IAsyncCursor<RaporModel>>();
+            var raporlar = await _raporlar.FindAsync(rapor => true);
 
-            var a = await _raporlar.FindAsync(rapor => true);
-            queue.Enqueue(a);
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.QueueDeclare(queue: "GetRapors",
+                    durable: false,
+                    exclusive: false,
+                    autoDelete: false,
+                    arguments: null);
 
-            return queue.Dequeue().ToList();
+                var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(raporlar));
+
+                channel.BasicPublish(exchange: "",
+                    routingKey: "GetRapors",
+                    basicProperties: null,
+                    body: body);
+            }
+
+            return raporlar.ToList();
         }
 
     }

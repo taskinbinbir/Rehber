@@ -11,15 +11,7 @@ namespace Rehber.UnitTest
     [TestClass]
     public class RehberUnitTest
     {
-        //private readonly IRehberServices _rehberServices;
-
         private readonly Mock<IRehberServices> _rehberServicesMock = new Mock<IRehberServices>();
-
-
-        //public RehberUnitTest(IRehberServices rehberServices)
-        //{
-        //    _rehberServices = rehberServices;
-        //}
 
         [TestMethod]
         public void KisiEkle()
