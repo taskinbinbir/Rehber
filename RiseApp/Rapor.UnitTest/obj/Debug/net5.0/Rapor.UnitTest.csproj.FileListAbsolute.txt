@@ -136,3 +136,4 @@ C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.UnitTest\bin\Debug
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.UnitTest\bin\Debug\net5.0\Rapor.WebApi.pdb
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.UnitTest\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.UnitTest\bin\Debug\net5.0\Moq.dll
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rapor.UnitTest\bin\Debug\net5.0\RabbitMQ.Client.dll

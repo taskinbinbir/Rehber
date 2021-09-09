@@ -47,10 +47,10 @@
       "Rapor.Core.RaporServices": {
         "System.Void Rapor.Core.RaporServices::.ctor(Rapor.Core.IDbClient)": {
           "Lines": {
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
           },
           "Branches": []
         }
@@ -58,13 +58,13 @@
       "Rapor.Core.RaporServices/<>c__DisplayClass2_1": {
         "System.Boolean Rapor.Core.RaporServices/<>c__DisplayClass2_1::<CreateDetayRapor>b__1(Rapor.Core.Models.RaporIcerikModel)": {
           "Lines": {
-            "50": 0
+            "54": 0
           },
           "Branches": []
         },
         "System.Boolean Rapor.Core.RaporServices/<>c__DisplayClass2_1::<CreateDetayRapor>b__2(Rapor.Core.Models.RaporIcerikModel)": {
           "Lines": {
-            "52": 0
+            "56": 0
           },
           "Branches": []
         }
@@ -72,65 +72,80 @@
       "Rapor.Core.RaporServices/<CreateDetayRapor>d__2": {
         "System.Void Rapor.Core.RaporServices/<CreateDetayRapor>d__2::MoveNext()": {
           "Lines": {
-            "22": 0,
-            "23": 0,
-            "24": 0,
-            "25": 0,
             "26": 0,
             "27": 0,
             "28": 0,
+            "29": 0,
             "30": 0,
             "31": 0,
             "32": 0,
-            "33": 0,
             "34": 0,
             "35": 0,
+            "36": 0,
             "37": 0,
-            "40": 0,
+            "38": 0,
+            "39": 0,
             "41": 0,
-            "42": 0,
             "44": 0,
             "45": 0,
             "46": 0,
-            "47": 0,
+            "48": 0,
             "49": 0,
+            "50": 0,
             "51": 0,
             "53": 0,
             "55": 0,
-            "56": 0,
             "57": 0,
-            "58": 0,
             "59": 0,
+            "60": 0,
             "61": 0,
             "62": 0,
             "63": 0,
-            "64": 0,
+            "65": 0,
             "66": 0,
             "67": 0,
             "68": 0,
-            "69": 0,
             "70": 0,
             "71": 0,
             "72": 0,
+            "73": 0,
             "74": 0,
             "75": 0,
             "76": 0,
-            "77": 0,
+            "78": 0,
             "79": 0,
             "80": 0,
             "81": 0,
             "83": 0,
             "84": 0,
-            "86": 0,
+            "85": 0,
             "87": 0,
-            "89": 0,
+            "88": 0,
             "90": 0,
-            "92": 0,
-            "93": 0
+            "91": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0
           },
           "Branches": [
             {
-              "Line": 40,
+              "Line": 44,
               "Offset": 891,
               "EndOffset": 474,
               "Path": 1,
@@ -138,7 +153,7 @@
               "Hits": 0
             },
             {
-              "Line": 44,
+              "Line": 48,
               "Offset": 533,
               "EndOffset": 535,
               "Path": 0,
@@ -146,7 +161,7 @@
               "Hits": 0
             },
             {
-              "Line": 44,
+              "Line": 48,
               "Offset": 533,
               "EndOffset": 549,
               "Path": 1,
@@ -154,7 +169,7 @@
               "Hits": 0
             },
             {
-              "Line": 50,
+              "Line": 54,
               "Offset": 582,
               "EndOffset": 584,
               "Path": 0,
@@ -162,7 +177,7 @@
               "Hits": 0
             },
             {
-              "Line": 55,
+              "Line": 59,
               "Offset": 671,
               "EndOffset": 673,
               "Path": 0,
@@ -170,7 +185,7 @@
               "Hits": 0
             },
             {
-              "Line": 55,
+              "Line": 59,
               "Offset": 671,
               "EndOffset": 699,
               "Path": 1,
@@ -178,7 +193,7 @@
               "Hits": 0
             },
             {
-              "Line": 50,
+              "Line": 54,
               "Offset": 582,
               "EndOffset": 709,
               "Path": 1,
@@ -186,7 +201,7 @@
               "Hits": 0
             },
             {
-              "Line": 66,
+              "Line": 70,
               "Offset": 729,
               "EndOffset": 734,
               "Path": 0,
@@ -194,7 +209,7 @@
               "Hits": 0
             },
             {
-              "Line": 74,
+              "Line": 78,
               "Offset": 805,
               "EndOffset": 807,
               "Path": 0,
@@ -202,7 +217,7 @@
               "Hits": 0
             },
             {
-              "Line": 74,
+              "Line": 78,
               "Offset": 805,
               "EndOffset": 824,
               "Path": 1,
@@ -210,7 +225,7 @@
               "Hits": 0
             },
             {
-              "Line": 66,
+              "Line": 70,
               "Offset": 729,
               "EndOffset": 865,
               "Path": 1,
@@ -218,7 +233,7 @@
               "Hits": 0
             },
             {
-              "Line": 40,
+              "Line": 44,
               "Offset": 891,
               "EndOffset": 896,
               "Path": 0,
@@ -231,28 +246,43 @@
       "Rapor.Core.RaporServices/<CreateIstatistikselRapor>d__3": {
         "System.Void Rapor.Core.RaporServices/<CreateIstatistikselRapor>d__3::MoveNext()": {
           "Lines": {
-            "96": 0,
-            "97": 0,
-            "98": 0,
-            "99": 0,
-            "101": 0,
-            "102": 0,
-            "103": 0,
-            "104": 0,
-            "106": 0,
-            "107": 0,
-            "108": 0,
-            "109": 0,
-            "110": 0,
-            "111": 0,
-            "112": 0,
-            "113": 0,
-            "115": 0,
-            "116": 0
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "158": 0,
+            "159": 0
           },
           "Branches": [
             {
-              "Line": 101,
+              "Line": 125,
               "Offset": 248,
               "EndOffset": 186,
               "Path": 1,
@@ -260,7 +290,7 @@
               "Hits": 0
             },
             {
-              "Line": 101,
+              "Line": 125,
               "Offset": 248,
               "EndOffset": 250,
               "Path": 0,
@@ -268,7 +298,7 @@
               "Hits": 0
             },
             {
-              "Line": 106,
+              "Line": 130,
               "Offset": 415,
               "EndOffset": 307,
               "Path": 1,
@@ -276,7 +306,7 @@
               "Hits": 0
             },
             {
-              "Line": 106,
+              "Line": 130,
               "Offset": 415,
               "EndOffset": 417,
               "Path": 0,
@@ -289,10 +319,25 @@
       "Rapor.Core.RaporServices/<GetRapors>d__4": {
         "System.Void Rapor.Core.RaporServices/<GetRapors>d__4::MoveNext()": {
           "Lines": {
-            "119": 0,
-            "120": 0,
-            "122": 0,
-            "123": 0
+            "162": 0,
+            "163": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "175": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "183": 0,
+            "184": 0
           },
           "Branches": []
         }
@@ -439,7 +484,7 @@
       "Rapor.UnitTest.RaporUnitTest": {
         "System.Void Rapor.UnitTest.RaporUnitTest::.ctor()": {
           "Lines": {
-            "14": 3
+            "14": 0
           },
           "Branches": []
         }
@@ -447,11 +492,11 @@
       "Rapor.UnitTest.RaporUnitTest/<GetRaporlar>d__1": {
         "System.Void Rapor.UnitTest.RaporUnitTest/<GetRaporlar>d__1::MoveNext()": {
           "Lines": {
-            "18": 1,
-            "19": 1,
-            "20": 1,
-            "22": 1,
-            "23": 1
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0
           },
           "Branches": []
         }
@@ -459,11 +504,11 @@
       "Rapor.UnitTest.RaporUnitTest/<CreateDetayRapor>d__2": {
         "System.Void Rapor.UnitTest.RaporUnitTest/<CreateDetayRapor>d__2::MoveNext()": {
           "Lines": {
-            "27": 1,
-            "28": 1,
-            "30": 1,
-            "32": 1,
-            "33": 1
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0
           },
           "Branches": []
         }
@@ -471,11 +516,11 @@
       "Rapor.UnitTest.RaporUnitTest/<CreateIstatistikselRapor>d__3": {
         "System.Void Rapor.UnitTest.RaporUnitTest/<CreateIstatistikselRapor>d__3::MoveNext()": {
           "Lines": {
-            "37": 1,
-            "38": 1,
-            "40": 1,
-            "42": 1,
-            "43": 1
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0
           },
           "Branches": []
         }
@@ -580,10 +625,10 @@
       "Rapor.WebApi.Controllers.RaporController": {
         "System.Void Rapor.WebApi.Controllers.RaporController::.ctor(Rapor.Core.IRaporServices)": {
           "Lines": {
-            "17": 3,
-            "18": 3,
-            "19": 3,
-            "20": 3
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
           },
           "Branches": []
         }
@@ -591,9 +636,9 @@
       "Rapor.WebApi.Controllers.RaporController/<GetRaporlar>d__2": {
         "System.Void Rapor.WebApi.Controllers.RaporController/<GetRaporlar>d__2::MoveNext()": {
           "Lines": {
-            "24": 1,
-            "25": 1,
-            "26": 1
+            "24": 0,
+            "25": 0,
+            "26": 0
           },
           "Branches": []
         }
@@ -601,9 +646,9 @@
       "Rapor.WebApi.Controllers.RaporController/<CreateDetayRapor>d__3": {
         "System.Void Rapor.WebApi.Controllers.RaporController/<CreateDetayRapor>d__3::MoveNext()": {
           "Lines": {
-            "30": 1,
-            "31": 1,
-            "32": 1
+            "30": 0,
+            "31": 0,
+            "32": 0
           },
           "Branches": []
         }
@@ -611,9 +656,9 @@
       "Rapor.WebApi.Controllers.RaporController/<CreateIstatistikselRapor>d__4": {
         "System.Void Rapor.WebApi.Controllers.RaporController/<CreateIstatistikselRapor>d__4::MoveNext()": {
           "Lines": {
-            "36": 1,
-            "37": 1,
-            "38": 1
+            "36": 0,
+            "37": 0,
+            "38": 0
           },
           "Branches": []
         }

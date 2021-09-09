@@ -21,3 +21,4 @@ C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\ne
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.dll
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\ref\Rehber.Core.dll
 C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.pdb
+C:\Users\taski\OneDrive\Documents\GitHub\Rehber\RiseApp\Rehber.Core\obj\Debug\net5.0\Rehber.Core.csproj.AssemblyReference.cache
